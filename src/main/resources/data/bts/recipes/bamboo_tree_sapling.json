@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "SBS",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "bts:bamboo_tree_sapling"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bts",
+  "version": "${version}",
+  "name": "BambooTreeSapling",
+  "description": "",
+  "authors": ["Ethanolgie ~ Q^Q"],
+  "contact": {
+    "homepage": "https://github.com/Ethanolgie",
+    "sources": "https://github.com/Ethanolgie/BambooTreeSapling",
+    "issues": "https://github.com/Ethanolgie/BambooTreeSapling/issues"
+  },
+  "license": "GNU GPL-3.0",
+  "icon": "assets/bts/textures/block/bamboos.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cafe.ethanolgie.bambootreesapling.BTS"
+    ],
+    "client": [
+      "cafe.ethanolgie.bambootreesapling.BTSClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
